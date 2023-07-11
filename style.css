@@ -63,6 +63,11 @@ body {
   background-color: yellow; /*color tbd*/
 }
 
+.about-me-card-heading {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
 .card-prose-container {
   background-color: red; /*color tbd*/
   padding: 5px;
