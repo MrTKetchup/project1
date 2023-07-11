@@ -51,6 +51,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 2px purple; /*added to help visulise image border*/
+	font-size: 0.7rem;
 }
 
 #about-me{
@@ -91,6 +92,11 @@ body {
 	
 }
 
+@media screen and (min-width:300px) {
+	.link-container {
+		font-size: 1rem;
+	}
+
 @media screen and (min-width:600px) {
   #intro {
     flex-direction: row;		
@@ -105,8 +111,12 @@ body {
 	padding-left: 15px;
   }
   
-  #profile-pic{
+  #profile-pic {
 	max-width: 350px;
+  }
+  
+  .link-container {
+	font-size: 1.5rem;
   }
   
   .intro-container {
