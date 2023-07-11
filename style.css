@@ -70,22 +70,24 @@ body {
     flex-direction: row;		
   }
   
+  .opening-statement {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: flex-start;
+	  justify-content: center;
+	  font-size: 2rem;
+	  padding-left: 15px;
+  }
+  
+  #profile-pic{
+	  max-width: 350px;
+  }
+  
   .intro-container {
 	  position: sticky;
 	  top: 0;
 	  right: 0;
   }
-  
-  /*#profile-pic {
-    position: fixed;
-	top: 0;
-	right: 0;
-  }
 
-  .link-container {
-    position: fixed;
-  	top: 0;
-  	right: 0;
-  }*/
-  }
+
 }
