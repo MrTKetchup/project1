@@ -54,7 +54,18 @@ body {
 }
 
 #about-me{
-	
+  border: solid 2px black; /*added to help visulise section border*/	
+  padding: 10px;
+  background-color: blue; /*color tbd*/
+}
+
+.about-me-card {
+  background-color: yellow; /*color tbd*/
+}
+
+.card-prose-container {
+  background-color: red; /*color tbd*/
+  padding: 5px;
 }
 
 #portfolio {
