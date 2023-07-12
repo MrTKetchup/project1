@@ -96,6 +96,26 @@ body {
   background-color: purple; /*color tbd*/
 }
 
+#portfolio h2 {
+  font-size: 2rem;
+}
+
+#portfolio p {
+	font-size: 1.5rem;
+	background-color: yellow; /*color tbd*/
+}
+
+.portfolio-card {
+	background-color: orange; /*color tbd*/
+	max-width: 500px; /*this will change when I fix my rhs panel*/
+}
+
+.portfolio-card-heading {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
 #contact {
 	
 }
