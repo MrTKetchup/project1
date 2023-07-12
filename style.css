@@ -101,9 +101,15 @@ body {
   font-size: 2rem;
 }
 
+.portfolio-intro-container {
+	margin-bottom: 10px;
+}
+
 #portfolio p {
 	font-size: 1.5rem;
 	background-color: yellow; /*color tbd*/
+	display: inline;
+	
 }
 
 .portfolio-container {
