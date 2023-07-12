@@ -24,13 +24,21 @@ body {
 
 .opening-statement {
 	width: 100%;
-	background-color: red; /*background color tbd*/
+	background-color: #d66c65; /*background color tbd*/
 	padding-left: 10px;
+}
+
+.opening-statement p {
+	color: #3b3534; /*color tbd*/
+}
+
+.opening-statement h1 {
+	color: #3b3534; /*color tbd*/
 }
 
 .intro-container{
 	/*width: 200px;*/
-	background-color: green; /*color tbd*/
+	background-color: #b03027; /*color tbd*/
 	padding: 10px;
 }
 
@@ -50,8 +58,12 @@ body {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid 2px purple; /*added to help visulise image border*/
 	font-size: 0.7rem;
+	background-color: #bf4239; /*color tbd*/
+}
+
+.link-container a {
+	color: #ede0df; 
 }
 
 #about-me{
