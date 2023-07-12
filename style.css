@@ -66,10 +66,9 @@ body {
 	color: #ede0df; 
 }
 
-#about-me{
-  border: solid 2px black; /*added to help visulise section border*/	
+#about-me{	
   padding: 10px;
-  background-color: blue; /*color tbd*/
+  background-color: #bd465c; /*color tbd*/
 }
 
 #about-me h2 {
@@ -84,7 +83,7 @@ body {
 }
 
 .about-me-card {
-  background-color: yellow; /*color tbd*/
+  background-color: #c76174; /*color tbd*/
   max-width: 500px; /*this will change when I fix my rhs panel*/
 }
 
@@ -95,7 +94,7 @@ body {
 }
 
 .card-prose-container {
-  background-color: red; /*color tbd*/
+  background-color: #d6babf; /*color tbd*/
   padding: 10px;
 }
 
@@ -103,10 +102,9 @@ body {
   font-size: 1.5rem;
 }
 
-#portfolio {
-  border: solid 2px black; /*added to help visulise section border*/	
+#portfolio {	
   padding: 10px;
-  background-color: purple; /*color tbd*/
+  background-color: #aca0ba; /*color tbd*/
 }
 
 #portfolio h2 {
@@ -213,3 +211,4 @@ body {
 	margin-left: auto;
 	margin-right: auto;
   }
+}
