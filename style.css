@@ -51,10 +51,43 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 2px purple; /*added to help visulise image border*/
+	font-size: 0.7rem;
 }
 
 #about-me{
-	
+  border: solid 2px black; /*added to help visulise section border*/	
+  padding: 10px;
+  background-color: blue; /*color tbd*/
+}
+
+#about-me h2 {
+  font-size: 2rem;
+}
+
+.about-me-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.about-me-card {
+  background-color: yellow; /*color tbd*/
+  max-width: 500px; /*this will change when I fix my rhs panel*/
+}
+
+.about-me-card-heading {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
+.card-prose-container {
+  background-color: red; /*color tbd*/
+  padding: 10px;
+}
+
+.card-prose-container p {
+  font-size: 1.5rem;
 }
 
 #portfolio {
@@ -65,29 +98,40 @@ body {
 	
 }
 
+@media screen and (min-width:300px) {
+	.link-container {
+		font-size: 1rem;
+	}
+
 @media screen and (min-width:600px) {
   #intro {
     flex-direction: row;		
   }
   
   .opening-statement {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: flex-start;
-	  justify-content: center;
-	  font-size: 2rem;
-	  padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 2rem;
+	padding-left: 15px;
   }
   
-  #profile-pic{
-	  max-width: 350px;
+  #profile-pic {
+	max-width: 350px;
+  }
+  
+  .link-container {
+	font-size: 1.5rem;
   }
   
   .intro-container {
-	  position: sticky;
-	  top: 0;
-	  right: 0;
+	position: sticky;
+	top: 0;
+	right: 0;
   }
 
-
-}
+  .about-me-card {
+	margin-left: auto;
+	margin-right: auto;
+  }
