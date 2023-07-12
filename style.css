@@ -68,6 +68,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	gap: 10px;
 }
 
 .about-me-card {
@@ -103,6 +104,13 @@ body {
 #portfolio p {
 	font-size: 1.5rem;
 	background-color: yellow; /*color tbd*/
+}
+
+.portfolio-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 
 .portfolio-card {
@@ -154,6 +162,11 @@ body {
   }
 
   .about-me-card {
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .portfolio-card {
 	margin-left: auto;
 	margin-right: auto;
   }
