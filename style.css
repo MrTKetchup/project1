@@ -64,9 +64,15 @@ body {
   font-size: 2rem;
 }
 
+.about-me-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .about-me-card {
   background-color: yellow; /*color tbd*/
-  max-width: 500px;
+  max-width: 500px; /*this will change when I fix my rhs panel*/
 }
 
 .about-me-card-heading {
