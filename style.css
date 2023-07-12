@@ -1,3 +1,5 @@
+/*Webpage housekeeping*/
+
 * {
   box-sizing: border-box;	
 }
@@ -15,6 +17,29 @@ body {
   width: 100%;
   padding: 10px;
 }
+
+/*Group Styling*/
+
+.section-heading {
+  font-size: 2rem;
+}
+
+.card-heading {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
+.card-prose-container {
+  background-color: #d6babf; /*color tbd*/
+  padding: 10px;
+}
+
+.card-prose {
+  font-size: 1.5rem;
+}
+
+/*Introduction Feature*/
 
 #intro {
   width: 100%;
@@ -37,7 +62,6 @@ body {
 }
 
 .intro-container{
-	/*width: 200px;*/
 	background-color: #b03027; /*color tbd*/
 	padding: 10px;
 }
@@ -51,7 +75,7 @@ body {
 	height: auto;
 }
 
-.section-link-container {
+.intro-link-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -62,17 +86,15 @@ body {
 	background-color: #bf4239; /*color tbd*/
 }
 
-.link-container a {
+.intro-link-container a {
 	color: #ede0df; 
 }
+
+/*About me feature*/
 
 #about-me{	
   padding: 10px;
   background-color: #bd465c; /*color tbd*/
-}
-
-.section-heading {
-  font-size: 2rem;
 }
 
 .about-me-container {
@@ -84,23 +106,10 @@ body {
 
 .about-me-card {
   background-color: #c76174; /*color tbd*/
-  max-width: 500px; /*this will change when I fix my rhs panel*/
+  max-width: 500px; 
 }
 
-.about-me-card-heading {
-  padding-top: 10px;
-  padding-left: 5px;
-  font-size: 1.5rem;
-}
-
-.card-prose-container {
-  background-color: #d6babf; /*color tbd*/
-  padding: 10px;
-}
-
-.card-prose-container p {
-  font-size: 1.5rem;
-}
+/*Portfolio Feature*/
 
 #portfolio {	
   padding: 10px;
@@ -127,14 +136,10 @@ body {
 
 .portfolio-card {
 	background-color: orange; /*color tbd*/
-	max-width: 500px; /*this will change when I fix my rhs panel*/
+	max-width: 500px; 
 }
 
-.portfolio-card-heading {
-  padding-top: 10px;
-  padding-left: 5px;
-  font-size: 1.5rem;
-}
+/*Contact Feature*/
 
 #contact {
 	background-color: #97b3d1; /*color tbd*/
@@ -155,8 +160,10 @@ body {
 	height: 40px;
 }
 
+/*Media Queries*/
+
 @media screen and (min-width:300px) {
-	.link-container {
+	.intro-link-container {
 		font-size: 1rem;
 	}
 
@@ -178,7 +185,7 @@ body {
 	max-width: 350px;
   }
   
-  .link-container {
+  .intro-link-container {
 	font-size: 2rem;
   }
   
