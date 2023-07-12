@@ -1,3 +1,5 @@
+/*Webpage housekeeping*/
+
 * {
   box-sizing: border-box;	
 }
@@ -16,6 +18,35 @@ body {
   padding: 10px;
 }
 
+/*Group Styling*/
+
+.section-heading {
+  font-size: 2rem;
+}
+
+.section-opening-prose {
+	font-size: 2rem;
+	display: inline;
+	color: black;
+}
+
+.card-heading {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
+.card-prose-container {
+  background-color: #d6babf; /*color tbd*/
+  padding: 10px;
+}
+
+.card-prose {
+  font-size: 1.5rem;
+}
+
+/*Introduction Feature*/
+
 #intro {
   width: 100%;
   display: flex;
@@ -24,13 +55,20 @@ body {
 
 .opening-statement {
 	width: 100%;
-	background-color: red; /*background color tbd*/
+	background-color: #d66c65; /*background color tbd*/
 	padding-left: 10px;
 }
 
+.opening-statement p {
+	color: #3b3534; /*color tbd*/
+}
+
+.opening-statement h1 {
+	color: #3b3534; /*color tbd*/
+}
+
 .intro-container{
-	/*width: 200px;*/
-	background-color: green; /*color tbd*/
+	background-color: #b03027; /*color tbd*/
 	padding: 10px;
 }
 
@@ -43,25 +81,26 @@ body {
 	height: auto;
 }
 
-.link-container {
+.intro-link-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid 2px purple; /*added to help visulise image border*/
 	font-size: 0.7rem;
+	background-color: #bf4239; /*color tbd*/
 }
 
-#about-me{
-  border: solid 2px black; /*added to help visulise section border*/	
+.intro-link-container a {
+	color: #ede0df; 
+}
+
+/*About me feature*/
+
+#about-me{	
   padding: 10px;
-  background-color: blue; /*color tbd*/
-}
-
-#about-me h2 {
-  font-size: 2rem;
+  background-color: #bd465c; /*color tbd*/
 }
 
 .about-me-container {
@@ -72,44 +111,19 @@ body {
 }
 
 .about-me-card {
-  background-color: yellow; /*color tbd*/
-  max-width: 500px; /*this will change when I fix my rhs panel*/
+  background-color: #c76174; /*color tbd*/
+  max-width: 500px; 
 }
 
-.about-me-card-heading {
-  padding-top: 10px;
-  padding-left: 5px;
-  font-size: 1.5rem;
-}
+/*Portfolio Feature*/
 
-.card-prose-container {
-  background-color: red; /*color tbd*/
+#portfolio {	
   padding: 10px;
-}
-
-.card-prose-container p {
-  font-size: 1.5rem;
-}
-
-#portfolio {
-  border: solid 2px black; /*added to help visulise section border*/	
-  padding: 10px;
-  background-color: purple; /*color tbd*/
-}
-
-#portfolio h2 {
-  font-size: 2rem;
+  background-color: #aca0ba; /*color tbd*/
 }
 
 .portfolio-intro-container {
 	margin-bottom: 10px;
-}
-
-#portfolio p {
-	font-size: 1.5rem;
-	background-color: yellow; /*color tbd*/
-	display: inline;
-	
 }
 
 .portfolio-container {
@@ -121,28 +135,14 @@ body {
 
 .portfolio-card {
 	background-color: orange; /*color tbd*/
-	max-width: 500px; /*this will change when I fix my rhs panel*/
+	max-width: 500px; 
 }
 
-.portfolio-card-heading {
-  padding-top: 10px;
-  padding-left: 5px;
-  font-size: 1.5rem;
-}
+/*Contact Feature*/
 
 #contact {
-	background-color: green; /*color tbd*/
+	background-color: #97b3d1; /*color tbd*/
 	padding: 10px;
-}
-
-#contact h2 {
-	font-size: 2rem;
-}
-
-#contact p {
-	font-size: 1.5rem;
-	background-color: yellow; /*color tbd*/
-	display: inline;
 }
 
 .contact-link-container {
@@ -159,8 +159,10 @@ body {
 	height: 40px;
 }
 
+/*Media Queries*/
+
 @media screen and (min-width:300px) {
-	.link-container {
+	.intro-link-container {
 		font-size: 1rem;
 	}
 
@@ -182,8 +184,8 @@ body {
 	max-width: 350px;
   }
   
-  .link-container {
-	font-size: 1.5rem;
+  .intro-link-container {
+	font-size: 2rem;
   }
   
   .intro-container {
@@ -201,3 +203,4 @@ body {
 	margin-left: auto;
 	margin-right: auto;
   }
+}
