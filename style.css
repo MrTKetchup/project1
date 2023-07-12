@@ -91,7 +91,9 @@ body {
 }
 
 #portfolio {
-	
+  border: solid 2px black; /*added to help visulise section border*/	
+  padding: 10px;
+  background-color: purple; /*color tbd*/
 }
 
 #contact {
