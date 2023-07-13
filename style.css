@@ -101,6 +101,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: space-evenly;
 }
 
 .about-me-card {
@@ -122,6 +123,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: space-evenly;
 }
 
 .portfolio-card {
@@ -154,7 +156,6 @@ body {
 
 .contact-symbol {
   width: 40px;
-  height: 40px;
 }
 
 @media screen and (min-width:600px) {
@@ -169,6 +170,7 @@ body {
 	justify-content: center;
 	font-size: 2rem;
 	padding-left: 15px;
+	padding-right: 15px;
   }
   
   .profile-pic {
@@ -177,21 +179,5 @@ body {
   
   .intro-link-container {
 	font-size: 2rem;
-  }
-  
-  .intro-container {
-	position: sticky; /*this will hopefully be used when fixed side bar issue is sorted*/
-	top: 0;
-	right: 0;
-  }
-
-  .about-me-card {
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
-  .portfolio-card {
-	margin-left: auto;
-	margin-right: auto;
   }
 }
