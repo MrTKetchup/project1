@@ -4,14 +4,14 @@
 
 html {
   font-size: 10px;
-  font-family: verdana, sans-serif; /*font tbd*/
+  font-family: verdana, sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: #C5C5C5; /*color tbd*/
+  background-color: #C5C5C5;
   width: 100%;
   padding: 10px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .card-prose-container {
-  background-color: #d6babf; /*color tbd*/
+  background-color: #d6babf;
   padding: 10px;
 }
 
@@ -49,21 +49,21 @@ body {
 
 .opening-statement {
   width: 100%;
-  background-color: #d66c65; /*background color tbd*/
+  background-color: #d66c65;
   padding-left: 10px;
   font-size: 1rem;
 }
 
 .opening-statement p {
-  color: #3b3534; /*color tbd*/
+  color: #3b3534;
 }
 
 .opening-statement h1 {
-  color: #3b3534; /*color tbd*/
+  color: #3b3534;
 }
 
 .intro-container{
-  background-color: #b03027; /*color tbd*/
+  background-color: #b03027;
   padding: 10px;
 }
 
@@ -84,7 +84,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 0.7rem;
-  background-color: #bf4239; /*color tbd*/
+  background-color: #bf4239;
 }
 
 .intro-link-container a {
@@ -93,7 +93,7 @@ body {
 
 #about-me{	
   padding: 10px;
-  background-color: #bd465c; /*color tbd*/
+  background-color: #bd465c;
 }
 
 .about-me-container {
@@ -104,13 +104,13 @@ body {
 }
 
 .about-me-card {
-  background-color: #c76174; /*color tbd*/
+  background-color: #c76174;
   max-width: 500px; 
 }
 
 #portfolio {	
   padding: 10px;
-  background-color: #aca0ba; /*color tbd*/
+  background-color: #aca0ba;
 }
 
 .portfolio-intro-container {
@@ -125,12 +125,12 @@ body {
 }
 
 .portfolio-card {
-  background-color: orange; /*color tbd*/
+  background-color: orange;
   max-width: 500px; 
 }
 
 #contact {
-  background-color: #97b3d1; /*color tbd*/
+  background-color: #97b3d1;
   padding: 10px;
 }
 
