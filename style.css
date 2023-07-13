@@ -1,5 +1,3 @@
-/*Webpage housekeeping*/
-
 * {
   box-sizing: border-box;	
 }
@@ -17,8 +15,6 @@ body {
   width: 100%;
   padding: 10px;
 }
-
-/*Group Styling*/
 
 .section-heading {
   font-size: 2rem;
@@ -44,8 +40,6 @@ body {
 .card-prose {
   font-size: 1.5rem;
 }
-
-/*Introduction Feature*/
 
 #intro {
   width: 100%;
@@ -97,8 +91,6 @@ body {
   color: #ede0df; 
 }
 
-/*About me feature*/
-
 #about-me{	
   padding: 10px;
   background-color: #bd465c; /*color tbd*/
@@ -115,8 +107,6 @@ body {
   background-color: #c76174; /*color tbd*/
   max-width: 500px; 
 }
-
-/*Portfolio Feature*/
 
 #portfolio {	
   padding: 10px;
@@ -139,8 +129,6 @@ body {
   max-width: 500px; 
 }
 
-/*Contact Feature*/
-
 #contact {
   background-color: #97b3d1; /*color tbd*/
   padding: 10px;
@@ -159,8 +147,6 @@ body {
   width: 40px;
   height: 40px;
 }
-
-/*Media Queries*/
 
 @media screen and (min-width:300px) {
   .intro-link-container {
