@@ -129,6 +129,17 @@ body {
   max-width: 500px; 
 }
 
+.portfolio-banner-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	border: solid 2px black;
+	padding-right: 5px;
+	
+}
+
 #contact {
   background-color: #97b3d1;
   padding: 10px;
