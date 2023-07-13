@@ -30,7 +30,6 @@ body {
 }
 
 .card-prose-container {
-	background-color: #d6babf;
 	padding: 10px;
 	height: inherit;
 }
@@ -89,7 +88,7 @@ body {
 	color: #ede0df; 
 }
 
-.about-me{	
+.about-me {	
 	padding: 10px;
 	background-color: #bd465c;
 }
@@ -103,7 +102,7 @@ body {
 }
 
 .about-me-card {
-	background-color: #c76174;
+	background-color: #d6babf;
 	max-width: 500px; 
 }
 
@@ -125,7 +124,7 @@ body {
 }
 
 .portfolio-card {
-	background-color: orange;
+	background-color: #d6babf;
 	max-width: 500px; 
 }
 
