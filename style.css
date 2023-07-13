@@ -78,18 +78,18 @@ body {
 	height: auto;
 }
 
-.intro-link-container {
+.intro-links-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	background-color: #bf4239;
 }
 
-.intro-link-container a {
+.intro-links-container a {
 	color: #ede0df; 
 }
 
@@ -175,7 +175,7 @@ body {
 	max-width: 350px;
 	}
 
-	.intro-link-container {
-	font-size: 2rem;
+	.intro-links-container {
+	font-size: 1.8rem;
 	}
 }
