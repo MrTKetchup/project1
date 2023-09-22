@@ -156,9 +156,9 @@ body {
 	width: 40px;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:480px) {
 	.intro {
-		flex-direction: row;		
+		flex-direction: row;
 	}
 
 	.opening-statement {
