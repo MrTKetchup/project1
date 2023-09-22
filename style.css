@@ -156,26 +156,26 @@ body {
 	width: 40px;
 }
 
-@media screen and (min-width:400px) {
-	.intro {
-		flex-direction: row;
-	}
+/*@media screen and (min-width:400px) {*/
+/*	.intro {*/
+/*		flex-direction: row;*/
+/*	}*/
 
-	.opening-statement {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		font-size: 2rem;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
+/*	.opening-statement {*/
+/*		display: flex;*/
+/*		flex-direction: column;*/
+/*		align-items: flex-start;*/
+/*		justify-content: center;*/
+/*		font-size: 2rem;*/
+/*		padding-left: 15px;*/
+/*		padding-right: 15px;*/
+/*	}*/
 
-	.profile-pic {
-		max-width: 350px;
-	}
+/*	.profile-pic {*/
+/*		max-width: 350px;*/
+/*	}*/
 
-	.intro-links-container {
-		font-size: 1.8rem;
-	}
-}
+/*	.intro-links-container {*/
+/*		font-size: 1.8rem;*/
+/*	}*/
+/*}*/
