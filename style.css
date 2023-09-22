@@ -156,7 +156,7 @@ body {
 	width: 40px;
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:550px) {
 	.intro {
 		flex-direction: row;
 	}
