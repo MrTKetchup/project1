@@ -66,16 +66,9 @@ body {
 
 .intro-container {
 	background-color: #73CAEA;
-	padding: 10px;
-}
-
-.profile-pic {
-	display: block;
-	width: 100%;
-	max-width: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
+	padding-bottom: 10px;
+	position: sticky;
+	top: 0px;
 }
 
 .intro-links-container {
@@ -91,6 +84,12 @@ body {
 
 .intro-links-container a {
 	color: #090024;
+	text-decoration: none;
+}
+
+.link-target {
+	position: relative;
+	bottom: 20px;
 }
 
 .about-me {	
@@ -170,10 +169,6 @@ body {
 		font-size: 2rem;
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-
-	.profile-pic {
-		max-width: 350px;
 	}
 
 	.intro-links-container {
