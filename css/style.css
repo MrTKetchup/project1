@@ -4,7 +4,7 @@
 
 html {
 	font-size: 10px;
-	font-family: verdana, sans-serif;
+	font-family: 'PT Sans Narrow';
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-	background-color: #d6babf;
+	background-color: #ead1c4;
 	max-width: 500px; 
 }
 
@@ -51,7 +51,7 @@ body {
 
 .opening-statement {
 	width: 100%;
-	background-color: #ef8145;
+	background-color: #73CAEA;
 	padding-left: 10px;
 	font-size: 1.5rem;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .intro-container {
-	background-color: #f1a350;
+	background-color: #73CAEA;
 	padding: 10px;
 }
 
@@ -86,7 +86,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 1.5rem;
-	background-color: #ef8145;
+	background-color: #73CAEA;
 }
 
 .intro-links-container a {
@@ -95,7 +95,8 @@ body {
 
 .about-me {	
 	padding: 10px;
-	background-color: #bd465c;
+	background-color: #2da8d3;
+
 }
 
 .about-me-container {
@@ -108,12 +109,12 @@ body {
 
 .about-me-banner-container {
 	display: flex;
-	background-color: #c76174;
+	background-color: #E68C2C;
 }
 
 .portfolio {	
 	padding: 10px;
-	background-color: #aca0ba;
+	background-color: #228CB3;;
 }
 
 .portfolio-intro-container {
@@ -135,11 +136,11 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding-right: 10px;
-	background-color: #db954f;
+	background-color: #E68C2C;
 }
 
 .contact {
-	background-color: #97b3d1;
+	background-color: #73CAEA;
 	padding: 10px;
 }
 
