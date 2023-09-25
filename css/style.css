@@ -25,7 +25,8 @@ body {
 
 .card {
 	background-color: #ead1c4;
-	max-width: 500px; 
+	max-width: 500px;
+	border-radius: 20px;
 }
 
 .card-heading {
@@ -109,6 +110,8 @@ body {
 .about-me-banner-container {
 	display: flex;
 	background-color: #E68C2C;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .portfolio {	
@@ -137,6 +140,8 @@ body {
 	align-items: center;
 	padding-right: 10px;
 	background-color: #E68C2C;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .contact {
