@@ -40,7 +40,7 @@ body {
 }
 
 .card-prose {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 .intro {
@@ -78,7 +78,7 @@ body {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	background-color: #73CAEA;
 }
 
@@ -95,7 +95,7 @@ body {
 .about-me {	
 	padding: 10px;
 	background-color: #2da8d3;
-
+	padding-bottom: 20px;
 }
 
 .about-me-container {
@@ -113,7 +113,8 @@ body {
 
 .portfolio {	
 	padding: 10px;
-	background-color: #228CB3;;
+	background-color: #228CB3;
+	padding-bottom: 20px;
 }
 
 .portfolio-intro-container {
@@ -167,16 +168,8 @@ body {
 	}
 
 	.opening-statement {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
 		font-size: 2rem;
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-
-	.intro-links-container {
-		font-size: 1.8rem;
 	}
 }
