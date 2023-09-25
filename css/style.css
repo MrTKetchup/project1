@@ -167,6 +167,11 @@ body {
 		flex-direction: row;
 	}
 
+	.intro-container {
+		position: absolute;
+		visibility: hidden;
+	}
+
 	.opening-statement {
 		font-size: 2rem;
 		padding-left: 15px;
