@@ -25,7 +25,8 @@ body {
 
 .card {
 	background-color: #ead1c4;
-	max-width: 500px; 
+	max-width: 500px;
+	border-radius: 20px;
 }
 
 .card-heading {
@@ -40,7 +41,7 @@ body {
 }
 
 .card-prose {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 .intro {
@@ -78,7 +79,7 @@ body {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	background-color: #73CAEA;
 }
 
@@ -95,7 +96,7 @@ body {
 .about-me {	
 	padding: 10px;
 	background-color: #2da8d3;
-
+	padding-bottom: 20px;
 }
 
 .about-me-container {
@@ -109,11 +110,14 @@ body {
 .about-me-banner-container {
 	display: flex;
 	background-color: #E68C2C;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .portfolio {	
 	padding: 10px;
-	background-color: #228CB3;;
+	background-color: #228CB3;
+	padding-bottom: 20px;
 }
 
 .portfolio-intro-container {
@@ -136,6 +140,8 @@ body {
 	align-items: center;
 	padding-right: 10px;
 	background-color: #E68C2C;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .contact {
@@ -156,22 +162,28 @@ body {
 	width: 40px;
 }
 
+.portfolio-link-symbol {
+	width: 40px;
+}
+
+.CV {
+	width: 40px;
+	height: 40px;
+}
+
 @media screen and (min-width:550px) {
 	.intro {
 		flex-direction: row;
 	}
 
+	.intro-container {
+		position: absolute;
+		visibility: hidden;
+	}
+
 	.opening-statement {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
 		font-size: 2rem;
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-
-	.intro-links-container {
-		font-size: 1.8rem;
 	}
 }
