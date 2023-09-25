@@ -156,6 +156,11 @@ body {
 	width: 40px;
 }
 
+.CV {
+	width: 40px;
+	height: 40px;
+}
+
 @media screen and (min-width:550px) {
 	.intro {
 		flex-direction: row;
