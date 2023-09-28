@@ -32,7 +32,7 @@ body {
 .card-heading {
 	padding-top: 10px;
 	padding-left: 10px;
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 
 .card-prose-container {
@@ -41,7 +41,7 @@ body {
 }
 
 .card-prose {
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 }
 
 .intro {
